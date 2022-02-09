@@ -1,0 +1,21 @@
+@for $var from 0 through 1 {
+    @if $var==0 {
+        .icon-box-#{$var} {
+            background-color: rgb(244, 247, 249);
+        }
+    }
+
+    @if $var==1 {
+        .icon-box-#{$var} {
+            background-color: rgb(76, 111, 255);
+        }
+    }
+}
+
+.icon-box {
+    text-align: center;
+    padding: 8px !important;
+    margin-right: 16px !important;
+    border-radius: 8px;
+}
+
